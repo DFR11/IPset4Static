@@ -9,7 +9,7 @@ Designed for Keenetic routers with installed entware, as well as for any system 
 
 **Requires AdguardHome or dnsmasq installed and configured before installation**
 
-Так что перед установкой нужно один из них настроить, какой выбрать и как настроить описано [здесь](https://github.com/DennoN-RUS/IPset4Static/wiki/Перед-установкой)
+So before installation you need to configure one of them, which one to choose and how to configure it is described here(https://github.com/DennoN-RUS/IPset4Static/wiki/Перед-установкой)
 
 ## Installing the IPset4Static service
 1) Log in via ssh to the entware environment: `ssh root@192.168.1.1`
