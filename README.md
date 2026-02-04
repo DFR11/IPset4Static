@@ -1,27 +1,27 @@
 # IPset4Static
-Здесь выложены файлы для работы ipset + iptables. Позволяет направлять в впн по доменному имени любой сайт
+Here are the files for ipset + iptables. Allows you to direct any website to VPN by domain name
 
-Есть возможность настройки с одним впн, так и с двумя (один основной, второй резервный + пользовательское перенаправление в определенный)
+It is possible to configure with one VPN or two (one main, the second backup + custom redirection to a specific one)
 
-Совместим с Bird4Static (с версии Bird4Static 3.9 и выше) и является его аддоном, но IPset4Static может работать и отдельно.
+Compatible with Bird4Static (from Bird4Static version 3.9 and higher) and is its addon, but IPset4Static can work separately.
 
 Предназначено для роутеров Keenetic с установленным на них entware, а так же для любой системы с opkg пакетами, и у которых система расположена в каталоге */opt/
 
-**Требует установленного и настроенного AdguardHome или dnsmasq, перед началом установки**
+**Requires AdguardHome or dnsmasq installed and configured before installation**
 
 Так что перед установкой нужно один из них настроить, какой выбрать и как настроить описано [здесь](https://github.com/DennoN-RUS/IPset4Static/wiki/Перед-установкой)
 
-## Установка сервиса IPset4Static
-1) Зайти по ssh в среду entware: `ssh root@192.168.1.1`
+## Installing the IPset4Static service
+1) Log in via ssh to the entware environment: `ssh root@192.168.1.1`
 
-2) Выполнить:
+2) Run:
     ```bash
    opkg install git git-http
    git clone https://github.com/DennoN-RUS/IPset4Static.git
    chmod +x ./IPset4Static/*.sh
    ./IPset4Static/install.sh 
     ```
-   Далее выбирать нужные параметры.
+Next, select the desired parameters.
 
 Более подробная инструкция установки и описание [тут](https://github.com/DennoN-RUS/IPset4Static/wiki/Установка)
 
