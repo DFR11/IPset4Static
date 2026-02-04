@@ -23,7 +23,7 @@ So before installation you need to configure one of them, which one to choose an
     ```
 Next, select the desired parameters.
 
-Более подробная инструкция установки и описание [тут](https://github.com/DennoN-RUS/IPset4Static/wiki/Установка)
+More detailed installation instructions and descriptions are available here.(https://github.com/DennoN-RUS/IPset4Static/wiki/Установка)
 
 ---
 Веб-интерфейс: [web4static](https://github.com/spatiumstas/web4static)
