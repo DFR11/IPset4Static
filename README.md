@@ -5,7 +5,7 @@ It is possible to configure with one VPN or two (one main, the second backup + c
 
 Compatible with Bird4Static (from Bird4Static version 3.9 and higher) and is its addon, but IPset4Static can work separately.
 
-Предназначено для роутеров Keenetic с установленным на них entware, а так же для любой системы с opkg пакетами, и у которых система расположена в каталоге */opt/
+Designed for Keenetic routers with installed entware, as well as for any system with opkg packages, and for which the system is located in the*/opt/
 
 **Requires AdguardHome or dnsmasq installed and configured before installation**
 
